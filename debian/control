@@ -1,0 +1,36 @@
+Source: glslang
+Section: devel
+Priority: optional
+Maintainer: Daan Wendelen <daanwendelen@gmail.com>
+Build-Depends: cmake (>= 3.1), debhelper (>=9)
+Standards-Version: 4.1.1
+Homepage: https://github.com/KhronosGroup/glslang
+
+Package: glslang
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: OpenGL / OpenGL ES Shading Language Reference Compiler
+ Glslang is the official reference compiler front end for the OpenGL ES and
+ OpenGL shading languages. It implements a strict interpretation of the
+ specifications for these languages.
+ .
+ Glslang can also be used to generate SPIR-V from GLSL. But this feature is
+ experimental and non-optimized.
+ .
+ For more info, see 
+ https://www.khronos.org/opengles/sdk/tools/Reference-Compiler/
+
+Package: glslang-dev
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: OpenGL / OpenGL ES Shading Language Reference Compiler
+ Glslang is the official reference compiler front end for the OpenGL ES and
+ OpenGL shading languages. It implements a strict interpretation of the
+ specifications for these languages.
+ .
+ This package contains static libraries to create your own shader compiler or
+ validator.
+ .
+ For more info, see https://github.com/KhronosGroup/glslang

@@ -1,0 +1,6 @@
+glslang (0~2467-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: 741613
+  * Version: 0~<nb of commits in upstream repo>
+
+ -- Daan Wendelen <daanwendelen@gmail.com>  Fri, 01 Dec 2017 23:08:21 +0100
