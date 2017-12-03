@@ -21,7 +21,8 @@ Files:     SPIRV/GLSL.ext.AMD.h
            SPIRV/GLSL.std.450.h
            SPIRV/spirv.hpp
 Copyright: 2014-2017 The Khronos Group Inc.
-License:   MIT
+License:   MIT-Khronos-registery
+
 
 Files:     SPIRV/bitutils.h
            SPIRV/hex_float.h
@@ -128,11 +129,6 @@ License:   Apache-2.0
 
 
 
-Files:	   debian/*
-Copyright: 2017 Daan Wendelen
-License:   MIT
-
-
 
 Files:     .appveyor.yml
            .clang-format
@@ -162,8 +158,73 @@ License:   None
 
 
 
+Files:     External/spirv-tools/*
+Copyright: 2015-2017 Google Inc.
+           2015-2017 The Khronos Group Inc.
+           2016-2017 LunarG Inc.
+           2016-2017 Valve Corporation
+           2017 Pierre Moreau
+License:   Apache-2.0
+
+Files:     External/spirv-tools/external/spirv-headers/*
+Copyright: 2014-2017 The Khronos Group Inc.
+License:   MIT-Khronos-registery
+
+
+Files:     External/spirv-tools/.appveyor.yml
+           External/spirv-tools/.clang-format
+           External/spirv-tools/.travis.yml
+           External/spirv-tools/Android.mk
+           External/spirv-tools/CHANGES
+           External/spirv-tools/CONTRIBUTING.md
+           External/spirv-tools/android_test/Android.mk
+           External/spirv-tools/android_test/jni/Application.mk
+           External/spirv-tools/external/spirv-headers/example/CMakeLists.txt
+           External/spirv-tools/projects.md
+           External/spirv-tools/source/extinst.spv-amd-gcn-shader.grammar.json
+           External/spirv-tools/source/extinst.spv-amd-shader-ballot.grammar.json
+           External/spirv-tools/source/extinst.spv-amd-shader-explicit-vertex-parameter.grammar.json
+           External/spirv-tools/source/extinst.spv-amd-shader-trinary-minmax.grammar.json
+           External/spirv-tools/syntax.md
+           External/spirv-tools/test/operand-class-test-coverage.csv
+           External/spirv-tools/tools/comp/markv_model_shader_default_autogen.inc
+Copyright: None
+License:   None
+
+
+
+
+Files:	   debian/*
+Copyright: 2017 Daan Wendelen
+License:   MIT
+
+
+
 
 License:   MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and/or associated documentation files (the
+ "Materials"), to deal in the Materials without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Materials, and to
+ permit persons to whom the Materials are furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Materials.
+ .
+ THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+
+
+
+
+License:   MIT-Khronos-registery
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and/or associated documentation files (the "Materials"),
  to deal in the Materials without restriction, including without limitation

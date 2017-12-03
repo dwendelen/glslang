@@ -3,5 +3,7 @@
 UPSTREAM_REMOTE=upstream
 UPSTREAM_BRANCH=master
 
-NB_OF_COMMITS=`git log --oneline $UPSTREAM_REMOTE/$UPSTREAM_BRANCH | wc -l`
+COMMON_ANCESTOR=`git merge-base master $UPSTREAM_REMOTE/$UPSTREAM_BRANCH`
+
+NB_OF_COMMITS=`git log --oneline $COMMON_ANCESTOR | wc -l`
 echo "0~$NB_OF_COMMITS"
